@@ -19,10 +19,10 @@ cd XSSReceiver-Docker
   
 * 构建 - Build
 ```bash
-docker build -t XSSReceiver:1.0 .
+docker build -t xss_receiver:1.0 .
 ```
   
 * 运行 - Run
 ```bash
-docker run -itd -p 8080:80 --name XSSReceiver XSSReceiver:1.0
+docker run -itd -p 8080:80 --name XSSReceiver xss_receiver:1.0
 ```
